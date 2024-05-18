@@ -1,6 +1,33 @@
+# Next with React Compiler 19
+
+[Gist with the changes](https://gist.github.com/huozhi/8d45b18debe18f444a5cce2553688097)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Known Issues
+
+- Fonts Optimization is broken. It's not working with the new React Compiler.
+
+
 ## Getting Started
+
+## dependencies:
+
+```diff
+- next 14.2.3
++ next 14.3.0-canary.70
+- react 18.3.1
++ react 19.0.0-beta-26f2496093-20240514
+- react-dom 18.3.1
++ react-dom 19.0.0-beta-26f2496093-20240514
+```
+
+
+
+devDependencies:
+```diff
++ babel-plugin-react-compiler 0.0.0-experimental-592953e-20240517
+```
 
 First, run the development server:
 
